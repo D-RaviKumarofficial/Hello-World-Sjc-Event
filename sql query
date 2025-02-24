@@ -1,0 +1,12 @@
+DB Name:helloworld
+
+CREATE TABLE media (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    banner_image VARCHAR(255),
+    invitation_image VARCHAR(255),
+    certificate_image VARCHAR(255),
+    promo_video VARCHAR(255),
+    other_video VARCHAR(255),
+    group_photo VARCHAR(255)
+);
+ALTER TABLE media ADD COLUMN year INT NOT NULL;
